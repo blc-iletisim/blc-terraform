@@ -1,0 +1,93 @@
+{
+  "name": {
+    "sensitive": false,
+    "type": [
+      "list",
+      [
+        "object",
+        {
+          "access_network": "bool",
+          "fixed_ip_v4": "string",
+          "fixed_ip_v6": "string",
+          "floating_ip": "string",
+          "mac": "string",
+          "name": "string",
+          "port": "string",
+          "uuid": "string"
+        }
+      ]
+    ],
+    "value": [
+      {
+        "access_network": false,
+        "fixed_ip_v4": "10.10.10.135",
+        "fixed_ip_v6": "",
+        "floating_ip": "",
+        "mac": "fa:16:3e:91:a4:aa",
+        "name": "Internal",
+        "port": "",
+        "uuid": "f0ad3870-01d3-41e1-b6dd-dccf6f424de4"
+      }
+    ]
+  },
+  "pool": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "address": "string",
+        "all_tags": [
+          "set",
+          "string"
+        ],
+        "description": "string",
+        "dns_domain": "string",
+        "dns_name": "string",
+        "fixed_ip": "string",
+        "id": "string",
+        "pool": "string",
+        "port_id": "string",
+        "region": "string",
+        "subnet_id": "string",
+        "subnet_ids": [
+          "list",
+          "string"
+        ],
+        "tags": [
+          "set",
+          "string"
+        ],
+        "tenant_id": "string",
+        "timeouts": [
+          "object",
+          {
+            "create": "string",
+            "delete": "string"
+          }
+        ],
+        "value_specs": [
+          "map",
+          "string"
+        ]
+      }
+    ],
+    "value": {
+      "address": "10.150.1.119",
+      "all_tags": [],
+      "description": "",
+      "dns_domain": "",
+      "dns_name": "",
+      "fixed_ip": "",
+      "id": "7cd667ce-06ca-477f-988a-a67910fc6da9",
+      "pool": "External",
+      "port_id": "",
+      "region": "RegionOne",
+      "subnet_id": null,
+      "subnet_ids": null,
+      "tags": [],
+      "tenant_id": "48966d34ff274def88db7f7b6d9f5cdc",
+      "timeouts": null,
+      "value_specs": null
+    }
+  }
+}
