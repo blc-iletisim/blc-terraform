@@ -6,20 +6,20 @@
 
 #sudo apt install pdsh
 
-export PDSH_RCMD_TYPE=ssh
+#export PDSH_RCMD_TYPE=ssh
 
-value=($(jq -r '.pool.value.address' output.json))
-echo "${value[@]}"
+#value=($(jq -r '.pool.value.address' output.json))
+#echo "${value[@]}"
 
 #ssh-keygen -t rsa -P ""
 
 #ssh-keygen -R "${value[@]}"
 
-#git clone https://github.com/blc-iletisim/blc-hadoop.git
+git clone https://github.com/blc-iletisim/blc-hadoop.git
 
-cd blc-hadoop
+#cd blc-hadoop
 
-sh ./bootstrap-master.sh
+#sh ./bootstrap-master.sh
 
 #git clone https://github.com/blc-iletisim/blc-hadoop.git
 
